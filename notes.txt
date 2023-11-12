@@ -1,0 +1,7 @@
+1- pyenv
+pesquisar: pyenv shell 3.11.0b4
+
+2- poetry: 
+poetry config virtualenvs.in-project true
+poetry init
+poetry shell
