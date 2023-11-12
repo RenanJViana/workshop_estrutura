@@ -5,3 +5,11 @@ pesquisar: pyenv shell 3.11.0b4
 poetry config virtualenvs.in-project true
 poetry init
 poetry shell
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+** Estudar **
+
+pip install . (Instala um pacote no ambiente virtual. Utiliza o arquivo setup.py)
