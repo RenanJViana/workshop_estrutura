@@ -6,6 +6,11 @@ poetry config virtualenvs.in-project true
 poetry init
 poetry shell
 
+3- .gitignore
+https://www.toptal.com/developers/gitignore
+
+4- branch extract
+
 
 
 
@@ -13,3 +18,7 @@ poetry shell
 ** Estudar **
 
 pip install . (Instala um pacote no ambiente virtual. Utiliza o arquivo setup.py)
+
+git branch -a: mostra todas as branchs do repositório
+
+pwd: recupera o caminho do diretório atual
