@@ -21,4 +21,6 @@ pip install . (Instala um pacote no ambiente virtual. Utiliza o arquivo setup.py
 
 git branch -a: mostra todas as branchs do repositório
 
+git push -u origin BRANCH_NAME: realizar push de uma branch local para o repositório remoto
+
 pwd: recupera o caminho do diretório atual
