@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-from app.pipeline.transforme import transforma_em_um_unico
+from app.pipeline.transform import transforma_em_um_unico
 
 # Sample data for testing
 df1 = pd.DataFrame({"A": [1, 2, 3], "B": ["a", "b", "c"]})
