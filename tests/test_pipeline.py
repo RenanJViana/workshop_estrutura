@@ -5,9 +5,7 @@ import os
 import pandas as pd
 import pytest
 
-from app.pipeline.extract import extract_excel
-from app.pipeline.load import load_em_um_novo_excel
-from app.pipeline.transform import transforma_em_um_unico
+from app.pipeline import extract_excel, load_em_um_novo_excel, transforma_em_um_unico
 
 # Sample data for testing
 df1 = pd.DataFrame({"A": [1, 2, 3], "B": ["a", "b", "c"]})
