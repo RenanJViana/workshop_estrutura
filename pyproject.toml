@@ -31,3 +31,8 @@ format = """
 isort .
 black .
 """
+test = "pytest -v -s"
+run = """
+python app/main.py
+"""
+doc = "mkdocs serve"

@@ -18,6 +18,7 @@ https://www.toptal.com/developers/gitignore
 7- taskipy
 poetry add taskipy
 task format
+task test
 
 
 
