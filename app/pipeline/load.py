@@ -12,7 +12,6 @@ def load_em_um_novo_excel(
 
     Parameters
     ----------
-
     df: pd.DataFrame
         Data frame para exportar
 
@@ -21,7 +20,6 @@ def load_em_um_novo_excel(
 
     output_file_name: str
         Nome do arquivo a ser salvo
-
     """
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)

@@ -25,7 +25,6 @@ def extract_excel(input_folder: str) -> List[pd.DataFrame]:
     ValueError
         Não há arquivos Excel na pasta especificada
     """
-
     files = glob.glob(os.path.join(input_folder, "*.xlsx"))
 
     if not files:

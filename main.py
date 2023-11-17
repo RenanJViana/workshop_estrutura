@@ -1,3 +1,5 @@
+"""arquivo main."""
+
 # Para onde vai as instalações dos pacotes quando não tem um ambiente virtual
 
 # Com o venv, o site-packages fica dentro do divetório do projeto

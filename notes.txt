@@ -11,6 +11,14 @@ https://www.toptal.com/developers/gitignore
 
 4- branch extract
 
+5- isort .
+
+6- pydocstyle .
+
+7- taskipy
+poetry add taskipy
+task format
+
 
 
 
@@ -26,3 +34,14 @@ git push -u origin BRANCH_NAME: realizar push de uma branch local para o reposit
 git push --set-upstream origin BRANCH_NAME: realizar push de uma branch local para o repositório remoto
 
 pwd: recupera o caminho do diretório atual
+
+Em caso de diferentes estratégias, utilize a estratégia do black
+[tool.isort]
+profile = "black"
+known_third_party = []
+
+flake8 não corrige o código, apenas aponta o que não está de acordo com a PEP8
+
+nome da biblioteca -h: lista todos os parâmetros da biblioteca
+
+pip-audit: verifica a segurança das bibliotecas instaladas
