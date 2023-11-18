@@ -20,7 +20,10 @@ poetry add taskipy
 task format
 task test
 
-8- mkdocs new .
+8- 
+poetry add mkdocs mkdocstrings-python pygments mkdocs-material pymdown-extensions
+mkdocs new .
+mkdocs serve
 
 
 

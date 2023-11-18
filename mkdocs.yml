@@ -10,6 +10,9 @@ repo_url: "https://github.com/renanjviana/workshop_estrutura"
 
 nav:
   - Home: index.md
+  - Extract: extract.md
+  - Transform: transform.md
+  - Load: load.md
   
 
 markdown_extensions:
