@@ -9,21 +9,23 @@
       
       
       
+        <link rel="prev" href="../transform/">
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.9">
     
     
       
-        <title>Estrutura de projetos de dados</title>
+        <title>Load - Estrutura de projetos de dados</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.78cf6014.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.78cf6014.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.356b1318.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
       
       
 
@@ -42,9 +44,9 @@
       
     
     
-      <link rel="stylesheet" href="/assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -68,6 +70,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#funcao-que-salva-os-dados-consolidados-em-um-unico-arquivo-excel" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -80,7 +87,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href="/." title="Estrutura de projetos de dados" class="md-header__button md-logo" aria-label="Estrutura de projetos de dados" data-md-component="logo">
+    <a href=".." title="Estrutura de projetos de dados" class="md-header__button md-logo" aria-label="Estrutura de projetos de dados" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -100,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Load
             
           </span>
         </div>
@@ -186,7 +193,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Estrutura de projetos de dados" class="md-nav__button md-logo" aria-label="Estrutura de projetos de dados" data-md-component="logo">
+    <a href=".." title="Estrutura de projetos de dados" class="md-nav__button md-logo" aria-label="Estrutura de projetos de dados" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -215,7 +222,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -234,7 +241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/extract/" class="md-nav__link">
+      <a href="../extract/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -253,7 +260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/transform/" class="md-nav__link">
+      <a href="../transform/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -270,9 +277,29 @@
       
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/load/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Load
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -281,6 +308,50 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#app.pipeline.load.load_em_um_novo_excel" class="md-nav__link">
+    <span class="md-ellipsis">
+      load_em_um_novo_excel
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="load_em_um_novo_excel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app.pipeline.load.load_em_um_novo_excel--parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameters
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -302,6 +373,40 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#app.pipeline.load.load_em_um_novo_excel" class="md-nav__link">
+    <span class="md-ellipsis">
+      load_em_um_novo_excel
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="load_em_um_novo_excel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#app.pipeline.load.load_em_um_novo_excel--parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parameters
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -313,8 +418,92 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+  
+
+
+<h1 id="funcao-que-salva-os-dados-consolidados-em-um-unico-arquivo-excel">Função que salva os dados consolidados em um único arquivo Excel</h1>
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<a id="app.pipeline.load.load_em_um_novo_excel"></a>
+  <div class="doc doc-contents first">
+  
+      <p>Salva um DataFrame em um arquivo Excel.</p>
+<h4 id="app.pipeline.load.load_em_um_novo_excel--parameters">Parameters</h4>
+<p>df: pd.DataFrame
+    Data frame para exportar</p>
+
+<details class="output_folder" open>
+  <summary>str</summary>
+  <p>Pasta onde será salvo o arquivo</p>
+</details>
+<details class="output_file_name" open>
+  <summary>str</summary>
+  <p>Nome do arquivo a ser salvo</p>
+</details>
+          <details class="quote">
+            <summary>Source code in <code>app\pipeline\load.py</code></summary>
+            <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">load_em_um_novo_excel</span><span class="p">(</span>
+    <span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">,</span> <span class="n">output_folder</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">output_file_name</span><span class="p">:</span> <span class="nb">str</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Salva um DataFrame em um arquivo Excel.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    df: pd.DataFrame</span>
+<span class="sd">        Data frame para exportar</span>
+
+<span class="sd">    output_folder: str</span>
+<span class="sd">        Pasta onde será salvo o arquivo</span>
+
+<span class="sd">    output_file_name: str</span>
+<span class="sd">        Nome do arquivo a ser salvo</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">output_folder</span><span class="p">):</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">output_folder</span><span class="p">)</span>
+
+    <span class="n">df</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">output_folder</span><span class="p">,</span> <span class="n">output_file_name</span><span class="p">),</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span>
+    <span class="p">)</span>  <span class="c1"># Retirado engine=&#39;openpyxl&#39;</span>
+</code></pre></div></td></tr></table></div>
+          </details>
+  </div>
+
+</div>
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -347,10 +536,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.6c14ae12.min.js"></script>
+      <script src="../assets/javascripts/bundle.6c14ae12.min.js"></script>
       
     
   </body>
