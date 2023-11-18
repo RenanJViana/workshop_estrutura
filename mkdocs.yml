@@ -1,0 +1,25 @@
+site_name: Estrutura de projetos de dados
+theme:
+  name: material
+  palette:
+    primary: blue
+  language: pt
+
+repo_name: "renanjviana/workshop_estrutura"
+repo_url: "https://github.com/renanjviana/workshop_estrutura"
+
+nav:
+  - Home: index.md
+  
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python

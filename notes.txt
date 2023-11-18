@@ -20,6 +20,8 @@ poetry add taskipy
 task format
 task test
 
+8- mkdocs new .
+
 
 
 
@@ -46,3 +48,5 @@ flake8 não corrige o código, apenas aponta o que não está de acordo com a PE
 nome da biblioteca -h: lista todos os parâmetros da biblioteca
 
 pip-audit: verifica a segurança das bibliotecas instaladas
+
+git commit --amend: modificar a mensagem do último commit
