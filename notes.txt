@@ -34,6 +34,8 @@ pre-commit run --all-files: checa todos os arquivos do projeto
 
 poetry add commitizen
 pre-commit install --hook-type commit-msg
+https://pre-commit.com/hooks.html
+cz commit
 
 
 
