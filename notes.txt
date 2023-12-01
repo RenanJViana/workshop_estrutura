@@ -1,7 +1,7 @@
 1- pyenv
 pesquisar: pyenv shell 3.11.0b4
 
-2- poetry: 
+2- poetry:
 poetry config virtualenvs.in-project true
 poetry init
 poetry shell
@@ -20,11 +20,16 @@ poetry add taskipy
 task format
 task test
 
-8- 
+8-
 poetry add mkdocs mkdocstrings-python pygments mkdocs-material pymdown-extensions
 mkdocs new .
 mkdocs serve
 
+
+9- CI da minha máquina
+poetry add pre-commit
+pre-commit install
+https://black.readthedocs.io/en/stable/integrations/source_version_control.html
 
 
 
