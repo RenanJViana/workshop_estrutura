@@ -39,8 +39,16 @@ isort .
 black .
 """
 test = "pytest -v -s"
+
 run = """
 python app/main.py
 """
 doc = "mkdocs serve"
+
+find = "dir /s /b app\\*.pyc"
+
+clean = """
+for /f "delims=" %i in ('dir /s /b app\\*.pyc') do del "%i"
+"""
+
 kill = "kill -9 $(lsof -t -i :8000)"
